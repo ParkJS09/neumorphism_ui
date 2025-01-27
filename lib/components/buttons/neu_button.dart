@@ -45,6 +45,7 @@ class _NeuButtonState extends State<NeuButton> {
         ),
         child: Center(
           child: DefaultTextStyle(
+            textAlign: TextAlign.center,
             style: TextStyle(
               color: NeuColors.textPrimary,
               fontSize: 16,
