@@ -43,12 +43,14 @@ class _NeuButtonState extends State<NeuButton> {
           boxShadow:
               _isPressed ? NeuShadows.innerShadow : NeuShadows.outerShadow,
         ),
-        child: DefaultTextStyle(
-          style: TextStyle(
-            color: NeuColors.textPrimary,
-            fontSize: 16,
+        child: Center(
+          child: DefaultTextStyle(
+            style: TextStyle(
+              color: NeuColors.textPrimary,
+              fontSize: 16,
+            ),
+            child: widget.child,
           ),
-          child: widget.child,
         ),
       ),
     );
