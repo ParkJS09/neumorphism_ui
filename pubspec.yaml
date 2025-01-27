@@ -10,7 +10,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  neumorphism_ui: ^0.0.1
 
 dev_dependencies:
   flutter_test:
