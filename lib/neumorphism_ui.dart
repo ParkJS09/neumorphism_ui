@@ -10,6 +10,7 @@ export 'components/buttons/neu_icon_button.dart';
 export 'components/inputs/neu_text_field.dart';
 export 'components/cards/neu_card.dart';
 export 'components/chips/neu_chip.dart';
+export 'components/chips/neu_check_chip.dart';
 export 'components/navigation/neu_bottom_sheet.dart';
 export 'components/navigation/neu_tab_bar.dart';
 export 'components/feedback/neu_toast.dart';

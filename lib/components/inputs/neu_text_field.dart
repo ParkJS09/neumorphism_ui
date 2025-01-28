@@ -7,6 +7,7 @@ class NeuTextField extends StatelessWidget {
   final String? hintText;
   final ValueChanged<String>? onChanged;
   final TextInputType? keyboardType;
+  final bool obscureText;
 
   const NeuTextField({
     Key? key,
@@ -14,6 +15,7 @@ class NeuTextField extends StatelessWidget {
     this.hintText,
     this.onChanged,
     this.keyboardType,
+    this.obscureText = false,
   }) : super(key: key);
 
   @override
@@ -35,6 +37,7 @@ class NeuTextField extends StatelessWidget {
           contentPadding: const EdgeInsets.all(16),
         ),
         style: TextStyle(color: NeuColors.textPrimary),
+        obscureText: obscureText,
       ),
     );
   }
